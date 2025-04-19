@@ -1,6 +1,8 @@
 {
   "extends": "@repo/typescript-config/nextjs.json",
   "compilerOptions": {
+    "jsx": "react-jsx", // Ensure JSX is supported
+    "types": ["react", "react-dom"], // Include React types
     "plugins": [
       {
         "name": "next"
@@ -8,13 +10,11 @@
     ]
   },
   "include": [
+    "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "next-env.d.ts",
     "next.config.js",
     ".next/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

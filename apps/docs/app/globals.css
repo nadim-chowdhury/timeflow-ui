@@ -48,3 +48,13 @@ a {
     display: unset;
   }
 }
+
+/* example global.css */
+html.warm {
+  --tw-bg-opacity: 1;
+  background-color: theme("colors.warm") !important;
+}
+html.cool {
+  --tw-bg-opacity: 1;
+  background-color: theme("colors.cool") !important;
+}

@@ -9,6 +9,7 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "@types/react": "^19.1.2",
     "prettier": "^3.5.3",
     "tsup": "^8.4.0",
     "turbo": "^2.5.0",
@@ -23,7 +24,13 @@
     "packages/*"
   ],
   "dependencies": {
+    "@headlessui/react": "^2.2.2",
     "@mdx-js/loader": "^3.1.0",
-    "@next/mdx": "^15.3.1"
+    "@next/mdx": "^15.3.1",
+    "axios": "^1.8.4",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.7.4",
+    "lucide-react": "^0.501.0"
   }
 }
