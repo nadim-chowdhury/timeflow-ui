@@ -1,5 +1,6 @@
 // next.config.js
-import { createMDX } from "@next/mdx";
+import pkg from "@next/mdx";
+const { createMDX } = pkg;
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
